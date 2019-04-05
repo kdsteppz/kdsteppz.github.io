@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+	<head>
+		
+		<title>To do list</title>
+
+		<!--Custom CSS-->
+		<link rel="stylesheet" type="text/css" href="css/list.css">
+
+	</head>
+	<body>
+
+    <label>Task:</label> 
+
+    <input id="listInput" type="text" placeholder="Enter task here" />
+    <label>Priority:</label> 
+    <select id="priority">
+      <option value="-1" disabled selected>Select a value</option>
+      <option value="1">High Priority</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+
+    <button id="addButton">Add</button>
+    <h2>Task List:</h2>
+    <ul id='listreturn'></ul>
+
+		<!--JQUERY-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+    <script src="script/script.js"></script>
+
+
+	</body>
+</html>
